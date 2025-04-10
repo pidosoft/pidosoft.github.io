@@ -1,0 +1,12 @@
+name: Check npm vulnerabilities
+on:
+  workflow_dispatch: # 수동 실행 이벤트
+jobs:
+  example-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v2
+      - name: Run npm audit
+        run: npm audit
+
