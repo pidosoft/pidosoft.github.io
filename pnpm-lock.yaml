@@ -21,8 +21,8 @@ importers:
         specifier: 11.11.5
         version: 11.11.5(@emotion/react@11.11.4(@types/react@18.3.3)(react@18.3.1))(@types/react@18.3.3)(react@18.3.1)
       '@fontsource/inter':
-        specifier: 5.0.18
-        version: 5.0.18
+        specifier: 5.2.5
+        version: 5.2.5
       '@fontsource/plus-jakarta-sans':
         specifier: 5.0.20
         version: 5.0.20
@@ -435,8 +435,8 @@ packages:
   '@floating-ui/utils@0.2.1':
     resolution: {integrity: sha512-9TANp6GPoMtYzQdt54kfAyMmz1+osLlXdg2ENroU7zzrtflTLrrC/lgrIfaSe+Wu0b89GKccT7vxXA0MoAIO+Q==}
 
-  '@fontsource/inter@5.0.18':
-    resolution: {integrity: sha512-YCsoYPTcs713sI7tLtxaPrIhXAXvEetGg5Ry02ivA8qUOb3fQHojbK/X9HLD5OOKvFUNR2Ynkwb1kR1hVKQHpw==}
+  '@fontsource/inter@5.2.5':
+    resolution: {integrity: sha512-kbsPKj0S4p44JdYRFiW78Td8Ge2sBVxi/PIBwmih+RpSXUdvS9nbs1HIiuUSPtRMi14CqLEZ/fbk7dj7vni1Sg==}
 
   '@fontsource/plus-jakarta-sans@5.0.20':
     resolution: {integrity: sha512-a887FrG31RWqliRg1jXZM8tjzqee2NlO3Vuc5uGdws2EFvOg46P9VMaeS5eM3jihFq8Kj0zUQD0GYQqcxdkfCA==}
@@ -4007,7 +4007,7 @@ snapshots:
 
   '@floating-ui/utils@0.2.1': {}
 
-  '@fontsource/inter@5.0.18': {}
+  '@fontsource/inter@5.2.5': {}
 
   '@fontsource/plus-jakarta-sans@5.0.20': {}
 
