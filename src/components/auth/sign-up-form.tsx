@@ -14,6 +14,7 @@ import InputLabel from '@mui/material/InputLabel';
 import Link from '@mui/material/Link';
 import OutlinedInput from '@mui/material/OutlinedInput';
 import Stack from '@mui/material/Stack';
+import Box from '@mui/material/Box';
 import Typography from '@mui/material/Typography';
 import { Controller, useForm } from 'react-hook-form';
 import { z as zod } from 'zod';
@@ -80,6 +81,22 @@ export function SignUpForm(): React.JSX.Element {
             Sign in
           </Link>
         </Typography>
+
+      </Stack>
+      <Stack spacing={1}>
+        <Button
+          variant="outlined"
+          color="secondary"
+          endIcon={
+            <Box component="img" src="/assets/logo-google.svg" alt="Google Logo" sx={{ width: 20, height: 20 }} />
+          }
+          sx={{
+            borderColor: "secondary.main",
+            color: "secondary.main",
+          }}
+        >
+          Continue with Google
+        </Button>
       </Stack>
       <form onSubmit={handleSubmit(onSubmit)}>
         <Stack spacing={2}>
